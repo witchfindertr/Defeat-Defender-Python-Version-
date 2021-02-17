@@ -15,7 +15,8 @@
 <p align="left">
    <img src="https://raw.githubusercontent.com/swagkarna/Defeat-Defender-Python-Version-/main/Screenshot%20(47).png" width=750px height=500px>
    </p>
-### Bypasssing Windows-Defender Techniques :
+   
+## Bypasssing Windows-Defender Techniques :
 ## Recently Windows Introduced new Feature called "Tamper Protection".Which Prevents the disable of real-time protection and modifying defender registry keys using powershell or cmd...If you need to disable real-time protection you need to do manually....But i have done some trick to run our payload without triggering defender even "real-time protection" turned on
 ## Behind The Scenes :
 ## When Batch file is executed it ask for admin permissions.After getting admin privileage it starts to disable windows defender real time protectin , firewall , smartscreen and starts downloading our backdoor from server and it will placed in startup folder.
